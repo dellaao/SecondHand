@@ -170,3 +170,59 @@
     width: 24px;
     height: 24px;
 }
+
+.cardDaftarJual-wrapper {
+    width: 668px;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin-top: 157px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-card-wrapper {
+    border: 3px dashed #D0D0D0;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 181.33px;
+    /* width: 206px; */
+    height: 198px;
+    box-sizing: border-box;
+    margin-left: 3px;
+    margin-right: 16px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    }
+
+.add-card-img-product {
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  .img-product img {
+    width: 100%;
+  }
+
+  .icon-plus{
+    width: 24px;
+    height: 24px;
+  }
+
+    p.desc-product {
+    font-size: 14px;
+    color: #8A8A8A;
+    margin: 0px;
+    margin-bottom: 4px;
+  }

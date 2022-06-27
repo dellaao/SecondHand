@@ -1,15 +1,18 @@
 import React from 'react'
 import NavbarMain from '../../components/navbar/NavbarMain'
 import './styles.css'
-import {FiBox} from "react-icons/fi";
+import {FiBox, FiPlus} from "react-icons/fi";
 import {FiChevronRight} from "react-icons/fi";
 import {FiHeart} from "react-icons/fi";
 import {FiDollarSign} from "react-icons/fi";
+import Card from '../../components/card/Index'
+import NavbarMain2 from '../../components/navbar/NavbarMain2';
 
 export default function SellerDaftarJual() {
   return (
     <div>
-        <NavbarMain/>
+        {/* <NavbarMain/> */}
+        <NavbarMain2/>
         <p className='text-daftar'>Daftar Jual Saya</p>
         <div className='seller-container'>
             <div className='seller-profile-wrapper'>
@@ -49,6 +52,30 @@ export default function SellerDaftarJual() {
                         <p>Terjual</p>
                     </div>
                     <FiChevronRight className='icon-box-chevron'/>
+                </div>
+            </div>
+            <div className='row'>
+                <div className='cardDaftarJual-wrapper'>
+                    <div className='add-card'>
+                        <div className='add-card-wrapper'>
+                        <div className='add-card-img-product'>
+                            <FiPlus className='icon-plus'/>
+                        </div>
+                        <p className='desc-product'>Tambah Produk</p>
+                    </div>
+                    </div>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
                 </div>
             </div>
         </div>

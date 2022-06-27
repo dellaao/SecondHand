@@ -14,7 +14,7 @@ export default function Card() {
                 <p className='price-product'>Rp 250.000</p>
             </div>
         </div>
-        <div className='product-wrapper'>
+        {/* <div className='product-wrapper'>
             <div className='img-product'>
                 <img src={require('../../images/jam-tangan2.jpg')}  alt="jam"/>
             </div>
@@ -63,8 +63,9 @@ export default function Card() {
                 <p className='desc-product'>Aksesoris</p>
                 <p className='price-product'>Rp 250.000</p>
             </div>
-        </div>
+        </div> */}
         {/* batas */}
+{/*         
         <div className='product-wrapper'>
             <div className='img-product'>
                 <img src={require('../../images/jam-tangan2.jpg')}  alt="jam"/>
@@ -124,7 +125,7 @@ export default function Card() {
                 <p className='desc-product'>Aksesoris</p>
                 <p className='price-product'>Rp 250.000</p>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }

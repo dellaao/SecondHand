@@ -8,7 +8,20 @@ export default function Kategori() {
     <div className='kategori'>
         <a>Telusuri kategori</a>
         <Search/>
-        <Card/>
+        <div className='card-kategori'>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+        </div>
+        <div className='card-kategori'>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+        </div>
     </div>
   )
 }
