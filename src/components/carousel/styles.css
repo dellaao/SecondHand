@@ -9,7 +9,7 @@
   margin-bottom: 140px;
   height: 17vw;
   position: relative;
-  perspective: 700px;
+  /* perspective: 700px; */
   transform-style: preserve-3d;
 }
 
