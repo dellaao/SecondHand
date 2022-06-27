@@ -3,14 +3,11 @@
 * {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-  width: 100%;
 }
 
 .navbar-style {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
   box-shadow: 2px 5px 1px rgba(248, 245, 245, 0.952);
   padding-top: 27px;
   padding-bottom: 23px;

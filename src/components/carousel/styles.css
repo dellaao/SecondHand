@@ -14,7 +14,8 @@
 }
 
 #slider label {
-  margin: auto;
+  /* margin: auto; */
+  margin-left: 100px;
   width: 80%;
   border-radius: 20px;
   position: absolute;

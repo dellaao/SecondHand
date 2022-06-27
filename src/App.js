@@ -1,5 +1,5 @@
-import Home from "./components/home/Index";
-import InfoProfil from "./components/infoProfil/Index";
+import InfoProfil from "./container/infoProfil/Index";
+import Home from "./container/home/Index";
 
 function App() {
   return (
